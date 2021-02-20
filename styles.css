@@ -1,4 +1,24 @@
-/* Sets all the text color to red! */
-body {
-    color: red;
+.image-gallery {
+    display: flex;
+    column-gap: 5px;
+}
+
+.image-gallery div.image-embed {
+    flex: 1;
+}
+
+.image-gallery figure.image-wrapper {
+    flex: 1;
+}
+
+figure.image-wrapper {
+    display: table;
+    margin: 0 auto;
+}
+
+figcaption.image-caption {
+    display: table-caption;
+    caption-side: bottom;
+    text-align: center;
+    font-size: 90%;
 }
